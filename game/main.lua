@@ -11,7 +11,9 @@ function readstats()
     local r = it()
     if not r then r = 0 end
     gold = 0 + r
+    local r = it()
     persecond = 0 + r
+    file:close()
 end
 
 function save()
